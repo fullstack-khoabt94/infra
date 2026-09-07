@@ -106,7 +106,8 @@ data "aws_iam_policy_document" "app_deploy" {
       "ecs:DescribeServices",
       "ecs:DescribeTaskDefinition",
       "ecs:RegisterTaskDefinition",
-      "ecs:UpdateService"
+      "ecs:UpdateService",
+      "ecs:TagResource"
     ]
     resources = ["*"]
   }
