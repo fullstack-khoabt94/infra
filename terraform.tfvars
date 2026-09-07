@@ -1,0 +1,12 @@
+region               = "ap-southeast-1"
+project              = "tasklog"
+domain               = "khoatienbui94.click"
+github_org           = "fullstack-khoabt94"
+state_bucket         = "tasklog-tfstate-fj03rofcndasc8dsa"
+public_subnet_cidrs  = ["10.0.0.0/20", "10.0.16.0/20"]
+private_subnet_cidrs = ["10.0.128.0/20", "10.0.144.0/20"]
+app_secret_arn       = "arn:aws:secretsmanager:ap-southeast-1:992382530308:secret:tasklog/app-secrets-Ik110M"
+backend_image_tag    = ""
+frontend_image_tag   = ""
+certificate_arn      = "arn:aws:acm:ap-southeast-1:992382530308:certificate/ab62ff91-afc9-4020-b74c-b4421d479007"
+r53_zone_id          = "Z09252732JOYCOUOA7PQF"
